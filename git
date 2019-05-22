@@ -1,6 +1,6 @@
 git init	#把目录变为git可以管理的仓库
-git add <file>		#告诉git把文件添加到仓库
-git commit -m (message)	#告诉git把文件提交到仓库 -m后为本次提交的说明
+git add <file>		#提交文件到暂存区
+git commit -m (message)	#提交暂存区的修改到工作区
 git status	#查看仓库当前状态
 git diff	#查看未提交的更改差异
 git log		#显示最近到最远的提交日志
