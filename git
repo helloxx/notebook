@@ -1,0 +1,12 @@
+git init	#把目录变为git可以管理的仓库
+git add <file>		#告诉git把文件添加到仓库
+git commit -m (message)	#告诉git把文件提交到仓库 -m后为本次提交的说明
+git status	#查看仓库当前状态
+git diff	#查看未提交的更改差异
+git log		#显示最近到最远的提交日志
+	--pretty=oneline	#每次提交显示为一行
+git reset --hard HEAD^	#回到上次版本
+	gir reset --hard commit_id	#回到对应commit_id的版本
+git reflog	#查看你的每次命令
+	
+
