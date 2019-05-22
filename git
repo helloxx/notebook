@@ -6,7 +6,8 @@ git diff	#查看未提交的更改差异
 git log		#显示最近到最远的提交日志
 	--pretty=oneline	#每次提交显示为一行
 git reset --hard HEAD^	#回到上次版本
-	gir reset --hard commit_id	#回到对应commit_id的版本
+	git reset --hard commit_id	#回到对应commit_id的版本
+	git reset HEAD <filename>	#丢弃暂存区的修改重新放回工作区
 git reflog	#查看你的每次命令
 git checkout -- file 丢弃工作区修改内容 没有--会变为切换分支	
 
